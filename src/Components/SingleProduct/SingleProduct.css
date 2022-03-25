@@ -1,0 +1,27 @@
+.product img{
+    width: 20rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.product{
+    width: 325px;
+    height: 500px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 15px;
+    position: relative;
+}
+.button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    border-radius: 15px;
+    position: absolute;
+    bottom: 0;
+    color: blue;
+}
+
+.icon{
+width: 44px;
+}
