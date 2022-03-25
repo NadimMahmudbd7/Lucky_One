@@ -2,101 +2,61 @@
   {
     "id": 1,
     "name": "GLOCK 17 Gen5",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/glock.png",
-    "bullet": "9mm",
-    "capacity": "17 + 1",
-    "action": "Semi-Automatic",
-    "price": "540",
-    "category": "Pistol"
+    "img": "https://img.freepik.com/free-photo/still-life-cosmetic-products_23-2149163111.jpg?w=740&t=st=1648229318~exp=1648229918~hmac=ba1f9ccc90321fac2abd122350352437e100d6d5c4ee218045f8f3e1ec1dc7e0",
+    "price": "540"
   },
   {
     "id": 2,
     "name": "FN 509 Tactical",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/FN.png",
-    "bullet": "9mm",
-    "capacity": "10 + 1",
-    "action": "Semi-Automatic",
-    "price": "900",
-    "category": "Pistol"
+    "img": "https://img.freepik.com/free-photo/top-view-lipsticks-assortment_23-2149096664.jpg?w=740&t=st=1648229403~exp=1648230003~hmac=1581ce6128182db0e85abfd680d776aa919fc2e90a2a94e17655aa43b98f8d1e",
+    "price": "900"
   },
   {
     "id": 3,
     "name": "Kimber Custom 1911",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/ki%2Cber.png",
-    "bullet": "45 ACP",
-    "capacity": "7 + 1",
-    "action": "Semi-Automatic",
-    "price": "900",
-    "category": "Pistol"
+    "img": "https://img.freepik.com/free-photo/mascara-false-eyelashes-top-view_23-2148978189.jpg?w=740&t=st=1648229408~exp=1648230008~hmac=5e97a465ebe5463c3c270c9e497edd2159a481b5670ab117c5684d533ae6110b",
+    "price": "900"
   },
   {
     "id": 4,
     "name": "Beretta M9A4 RDO",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta.png",
-    "bullet": "9mm",
-    "capacity": "18 + 1",
-    "action": "Semi-Automatic",
-    "price": "1000",
-    "category": "Pistol"
+    "img": "https://img.freepik.com/free-photo/high-angle-powder-with-pink-background_23-2148978200.jpg?w=740&t=st=1648229489~exp=1648230089~hmac=bdc8ed3ea6ddfc5a101202cd2e8e2d17f1a837ab85423d7a82bf34feeceeac8d",
+    "price": "1000"
   },
   {
     "id": 5,
     "name": "Beretta A400 Xcel",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta-shotgun.png",
-    "bullet": "12 Gauge",
-    "capacity": "3 + 1",
-    "action": "Semi-Automatic",
-    "price": "1720",
-    "category": "Shotgun"
+    "img": "https://img.freepik.com/free-photo/high-angle-lipgloss-arrangement_23-2149096674.jpg?w=740&t=st=1648229499~exp=1648230099~hmac=1a7f03fdcd97e1bf795e19805eee7e8897e0a7d1676e129f91f56b935bd3efa0",
+    "price": "1720"
   },
   {
     "id": 6,
     "name": "Benelli M1014",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/benalim4.png",
-    "bullet": "12 Gauge",
-    "capacity": "5 + 1",
-    "action": "Semi-Automatic",
-    "price": "1900",
-    "category": "Shotgun"
+    "img": "https://img.freepik.com/free-photo/beautiful-shot-makeup-brush-isolated-black-background_181624-22423.jpg?w=740&t=st=1648229512~exp=1648230112~hmac=3ed73424911a98b663a74155f1f643e98256ec74bad74c5d6c21a6d85ca121b3",
+    "price": "1900"
   },
   {
     "id": 7,
     "name": "Browning Citori 725",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/Browning.png",
-    "bullet": "12 Gauge",
-    "capacity": "2",
-    "action": "Double Shot",
-    "price": "5430",
-    "category": "Shotgun"
+    "img": "https://img.freepik.com/free-photo/top-view-make-up-products-arrangement_23-2149096693.jpg?w=740&t=st=1648229609~exp=1648230209~hmac=123cb9788dca7491c199c246b0f79d3def2337afa1450824b80431a66412733a",
+    "price": "5430"
   },
   {
     "id": 8,
     "name": "Winchester SXP",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/winchester.png",
-    "bullet": "12 Gauge",
-    "capacity": "5 + 1",
-    "action": "Pump",
-    "price": "570",
-    "category": "Shotgun"
+    "img": "https://img.freepik.com/free-photo/close-up-hand-holding-eyeshadow-brush_23-2148978132.jpg?w=740&t=st=1648229595~exp=1648230195~hmac=33d982ffd3726c6dfa24cea6b732147bd952a033aebe69e696be95fa6d6da03a",
+    "price": "570"
   },
   {
     "id": 9,
     "name": "Bergara B-14 HMR",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
-    "bullet": "6.5 Creedmoor",
-    "capacity": "5",
-    "action": "Semi-Automatic",
-    "price": "970",
-    "category": "Rifle"
+    "img": "https://img.freepik.com/free-photo/red-lipsticks-arrangement-view_23-2148978122.jpg?w=740&t=st=1648229751~exp=1648230351~hmac=80b73205fec208c8b037cebb872d72866a8fa6dd85b90c4c1484ef13c0fd5954",
+    "price": "970"
   },
   {
     "id": 10,
     "name": "Smith & Wesson M&P15",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
-    "bullet": "5.56x45mm NATO",
-    "capacity": "30 + 1",
-    "action": "Semi-Automatic",
-    "price": "800",
-    "category": "Rifle"
+    "img": "https://img.freepik.com/free-photo/various-kinds-make-up-products-grey_114579-51559.jpg?w=740&t=st=1648229861~exp=1648230461~hmac=4ed4665a166d503447787f578479d67b4304ae5f80268c9eab52ed4e6f3640c2",
+    "price": "800"
   }
 ]

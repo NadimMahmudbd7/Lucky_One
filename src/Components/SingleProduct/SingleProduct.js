@@ -1,6 +1,6 @@
 import React from 'react';
 import "./SingleProduct.css"
-import { AcademicCapIcon, ShoppingCartIcon } from '@heroicons/react/solid'
+import { ShoppingCartIcon } from '@heroicons/react/solid'
 
 const SingleProduct = ({product,AddHandleCart}) => {
     return (
