@@ -8,6 +8,13 @@
     row-gap: 50px;
 }
 .rightSide{
-    background-color: blue;
+    background-color: #d8d8d9;
+    border-radius: 15px;
     height: 400px;
+    width: 298px;
+}
+.rightSide h1{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
 }

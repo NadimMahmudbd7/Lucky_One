@@ -31,7 +31,6 @@ const Products = () => {
         let luckyItem = addCart[result]
         setLucky(luckyItem)
     }
-    console.log(lucky);
     return (
         <div className='products'>
             <div className="leftSide">
