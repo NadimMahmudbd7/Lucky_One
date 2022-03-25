@@ -21,6 +21,17 @@ const Products = () => {
     const Reset =()=>{
         setCart([])
     }
+
+    const [lucky,setLucky] = useState([])
+
+    const RandomSelect =() =>{
+        let step1 = (addCart.length-1)- (0) +1
+        let step2 = Math.random()*step1;
+        let result = Math.floor(step2)+0;
+        let luckyItem = addCart[result]
+        setLucky(luckyItem)
+    }
+    console.log(lucky);
     return (
         <div className='products'>
             <div className="leftSide">
@@ -33,9 +44,10 @@ const Products = () => {
             }
             </div>
             <div className="rightSide">
+                {<h3>{lucky.name}</h3>}
                 <h1>Selected Item</h1>
                 {addCart.map( productCart => <h4>{productCart.name}</h4>)}
-                <button>Choose 1 For me</button>
+                <button onClick={RandomSelect}>Choose 1 For me</button>
                 <button onClick={Reset}>Reset</button>
             </div>
 
