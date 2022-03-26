@@ -16,8 +16,20 @@ const Products = () => {
     const [addCart,setCart] = useState([])
     
     const AddHandleCart =(product)=>{
-        const addedCart=[...addCart,product]
-        setCart(addedCart)
+        const double=addCart.find(doubleCount => doubleCount.name === product.name)
+        if(addCart.length >3){
+            alert("You can select only 4 Items")
+        }
+        else if(double){
+            alert("You can't select same Items")
+        }
+        else{
+            
+            const addedCart=[...addCart,product]
+            setCart(addedCart)
+        }
+        
+        
     }
 
     const Reset =()=>{

@@ -2,7 +2,6 @@ import React from 'react';
 import "./RandomSelectProduct.css"
 
 const RandomSelectProduct = ({lucky}) => {
-    console.log(lucky);
     return (
         <div className='randomProduct'>
             <img className='randomProductimg' src={lucky.img} alt="" />
