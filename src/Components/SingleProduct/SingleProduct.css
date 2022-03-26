@@ -34,3 +34,9 @@
 .icon{
 width: 44px;
 }
+@media screen and (max-width:688px){
+    .product{
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+}
