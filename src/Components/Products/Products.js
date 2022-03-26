@@ -21,7 +21,7 @@ const Products = () => {
             alert("You can select only 4 Items")
         }
         else if(double){
-            alert("You can't select same Items")
+            alert("You can't select same Item")
         }
         else{
             
@@ -39,11 +39,17 @@ const Products = () => {
     const [lucky,setLucky] = useState([])
 
     const RandomSelect =() =>{
-        let step1 = (addCart.length-1)- (0) +1
+        console.log(addCart);
+        if(addCart.length ===0){
+            alert("Your Select Items Empty")
+        }
+        else{
+            let step1 = (addCart.length-1)- (0) +1
         let step2 = Math.random()*step1;
         let result = Math.floor(step2)+0;
         let luckyItem = addCart[result]
         setLucky(luckyItem)
+        }
     }
     return (
         <div className='products'>
@@ -58,9 +64,10 @@ const Products = () => {
             </div>
             <div className="rightSide container">
             
-                <h1 className='text-center my-4'>Selected Item</h1>
+                <h1 className='text-center my-3'>Selected Item</h1>
+                <h5 className='text-center mb-4'>Select Maximum 4 Items</h5>
                 <div className="div">
-                {addCart.map( productCart =><CartProducts productCart={productCart}></CartProducts>)}
+                {addCart.map( productCart =><CartProducts productCart={productCart} key={productCart.id}></CartProducts>)}
                 <div className="multiBtn">
                 <button className='choseButton ' onClick={RandomSelect}>Choose 1 For me</button>
                 <button className='resetButton' onClick={Reset}>Reset ALL Products</button>

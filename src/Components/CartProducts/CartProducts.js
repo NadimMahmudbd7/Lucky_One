@@ -5,7 +5,7 @@ const CartProducts = ({productCart}) => {
     return (
         <div className='cartProducts'>
             <img className='cartImg' src={productCart.img} alt="" />
-            <h4>{productCart.name}</h4>
+            <h5>{productCart.name}</h5>
         </div>
     );
 };

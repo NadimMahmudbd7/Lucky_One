@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "name": "GLOCK 17 Gen5",
+    "name": "Makeup Brush",
     "img": "https://img.freepik.com/free-photo/still-life-cosmetic-products_23-2149163111.jpg?w=740&t=st=1648229318~exp=1648229918~hmac=ba1f9ccc90321fac2abd122350352437e100d6d5c4ee218045f8f3e1ec1dc7e0",
-    "price": "540"
+    "price": "40"
   },
   {
     "id": 2,
-    "name": "FN 509 Tactical",
+    "name": "Velvet Matte Lipstick",
     "img": "https://img.freepik.com/free-photo/top-view-lipsticks-assortment_23-2149096664.jpg?w=740&t=st=1648229403~exp=1648230003~hmac=1581ce6128182db0e85abfd680d776aa919fc2e90a2a94e17655aa43b98f8d1e",
-    "price": "900"
+    "price": "50"
   },
   {
     "id": 3,
-    "name": "Kimber Custom 1911",
+    "name": "Makeup Eye vrue",
     "img": "https://img.freepik.com/free-photo/mascara-false-eyelashes-top-view_23-2148978189.jpg?w=740&t=st=1648229408~exp=1648230008~hmac=5e97a465ebe5463c3c270c9e497edd2159a481b5670ab117c5684d533ae6110b",
-    "price": "900"
+    "price": "10"
   },
   {
     "id": 4,
-    "name": "Beretta M9A4 RDO",
+    "name": "Fresh Powder",
     "img": "https://img.freepik.com/free-photo/high-angle-powder-with-pink-background_23-2148978200.jpg?w=740&t=st=1648229489~exp=1648230089~hmac=bdc8ed3ea6ddfc5a101202cd2e8e2d17f1a837ab85423d7a82bf34feeceeac8d",
-    "price": "1000"
+    "price": "15"
   },
   {
     "id": 5,

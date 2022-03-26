@@ -5,7 +5,7 @@ const RandomSelectProduct = ({lucky}) => {
     return (
         <div className='randomProduct'>
             <img className='randomProductimg' src={lucky.img} alt="" />
-            <h4>{lucky.name}</h4>
+            <h5>{lucky.name}</h5>
         </div>
     );
 };

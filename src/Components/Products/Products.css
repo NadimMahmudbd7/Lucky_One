@@ -3,16 +3,16 @@
     grid-template-columns: 4fr 1fr;
 }
 .leftSide{
-    /* display: grid; */
+    display: grid;
     grid-template-columns: repeat(3,1fr);
     row-gap: 50px;
 }
 .rightSide{
-    background-image: linear-gradient(45deg, #e88ee9, transparent);
+    background-image: linear-gradient(184deg, #e88ee9, transparent);
     border-radius: 15px;
-    height: 500px;
-    width: 400px;
-    margin-right: 40px;
+    height: 550px;
+    width: 280px;
+    margin-right: 20px;
     position: sticky;
     top: 0;
 }
@@ -22,12 +22,14 @@
     position: sticky;
 }
 .choseButton{
-    background-image: linear-gradient(45deg, #e69d9d, transparent);
+    background-image: linear-gradient(182deg, #10b5eb, transparent);
     font-weight: bold;
-    font-size: 22px;
+    font-size: 15px;
     color: #4c4c8f;
     border-radius: 5px;
     box-shadow: 10px 6px 8px;
+    border-style: none;
+    margin-bottom: 20px;
 }
 .choseButton:active{
     box-shadow: 4px 4px 7px;
@@ -35,16 +37,18 @@
 .multiBtn{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 40px;
+    flex-direction: column;
+    margin:auto;
+    width: 157px;
 
 }
 .resetButton{
-    background-image: linear-gradient(45deg, #e69d9d, transparent);
     font-weight: bold;
     font-size: 16px;
-    color: #4c4c8f;
+    color: #ff081f;
     border-radius: 5px;
     box-shadow: 10px 6px 8px;
+    border-style: none;
 }
 .resetButton{
     box-shadow: 4px 4px 7px;
@@ -53,6 +57,7 @@
     .rightSide{
         width: 100%;
         margin-right: 20px;
+        margin-top: 30px;
     }
     .resetButton{
         font-size: 16px;
@@ -63,5 +68,13 @@
     }
     .choseButton{
         font-size: 16px;
+    }
+    .leftSide{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
     }
 }
