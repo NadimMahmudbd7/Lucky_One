@@ -19,44 +19,44 @@
   },
   {
     "id": 4,
-    "name": "Fresh Powder",
+    "name": "Face Powder",
     "img": "https://img.freepik.com/free-photo/high-angle-powder-with-pink-background_23-2148978200.jpg?w=740&t=st=1648229489~exp=1648230089~hmac=bdc8ed3ea6ddfc5a101202cd2e8e2d17f1a837ab85423d7a82bf34feeceeac8d",
     "price": "15"
   },
   {
     "id": 5,
-    "name": "Beretta A400 Xcel",
+    "name": "Beretta lipstick",
     "img": "https://img.freepik.com/free-photo/high-angle-lipgloss-arrangement_23-2149096674.jpg?w=740&t=st=1648229499~exp=1648230099~hmac=1a7f03fdcd97e1bf795e19805eee7e8897e0a7d1676e129f91f56b935bd3efa0",
-    "price": "1720"
+    "price": "22"
   },
   {
     "id": 6,
-    "name": "Benelli M1014",
+    "name": "Advanced makeup brush",
     "img": "https://img.freepik.com/free-photo/beautiful-shot-makeup-brush-isolated-black-background_181624-22423.jpg?w=740&t=st=1648229512~exp=1648230112~hmac=3ed73424911a98b663a74155f1f643e98256ec74bad74c5d6c21a6d85ca121b3",
-    "price": "1900"
+    "price": "56"
   },
   {
     "id": 7,
-    "name": "Browning Citori 725",
+    "name": "Face powder with brush",
     "img": "https://img.freepik.com/free-photo/top-view-make-up-products-arrangement_23-2149096693.jpg?w=740&t=st=1648229609~exp=1648230209~hmac=123cb9788dca7491c199c246b0f79d3def2337afa1450824b80431a66412733a",
-    "price": "5430"
+    "price": "70"
   },
   {
     "id": 8,
-    "name": "Winchester SXP",
+    "name": "Combination Face powder",
     "img": "https://img.freepik.com/free-photo/close-up-hand-holding-eyeshadow-brush_23-2148978132.jpg?w=740&t=st=1648229595~exp=1648230195~hmac=33d982ffd3726c6dfa24cea6b732147bd952a033aebe69e696be95fa6d6da03a",
-    "price": "570"
+    "price": "45"
   },
   {
     "id": 9,
-    "name": "Bergara B-14 HMR",
+    "name": "Two type Lipsticks",
     "img": "https://img.freepik.com/free-photo/red-lipsticks-arrangement-view_23-2148978122.jpg?w=740&t=st=1648229751~exp=1648230351~hmac=80b73205fec208c8b037cebb872d72866a8fa6dd85b90c4c1484ef13c0fd5954",
-    "price": "970"
+    "price": "32"
   },
   {
     "id": 10,
-    "name": "Smith & Wesson M&P15",
+    "name": "Full makeup Box",
     "img": "https://img.freepik.com/free-photo/various-kinds-make-up-products-grey_114579-51559.jpg?w=740&t=st=1648229861~exp=1648230461~hmac=4ed4665a166d503447787f578479d67b4304ae5f80268c9eab52ed4e6f3640c2",
-    "price": "800"
+    "price": "49"
   }
 ]
