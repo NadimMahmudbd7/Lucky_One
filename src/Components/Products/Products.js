@@ -53,7 +53,7 @@ const Products = () => {
     }
     return (
         <div className='products'>
-            <div className="leftSide row">
+            <div className="leftSide container">
             {
                 products.map( product=> <SingleProduct 
                     key={product.id}

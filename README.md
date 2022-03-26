@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 # [Welcome to Our BeautyShop](https://genuine-lokum-38763f.netlify.app/)
 
 Live website link: https://genuine-lokum-38763f.netlify.app/
@@ -17,3 +18,7 @@ Developer By
 Nadim Mahmud
 
 
+=======
+project name: welcome to our BeautyShop
+live website Link: 
+>>>>>>> 8ad4b55856c8b9db9a9f69fdbd84ae17baf71346

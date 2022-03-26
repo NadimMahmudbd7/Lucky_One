@@ -4,7 +4,7 @@ import { ShoppingCartIcon } from '@heroicons/react/solid'
 
 const SingleProduct = ({product,AddHandleCart}) => {
     return (
-        <div className='product'>
+        <div className='product container'>
            <img src={product.img} alt="" />
            <h4>Name: {product.name}</h4>
            <h5>Price: ${product.price}</h5>
