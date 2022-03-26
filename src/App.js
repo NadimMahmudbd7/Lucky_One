@@ -6,7 +6,7 @@ import Products from './Components/Products/Products';
 function App() {
   return (
     <div className="App">
-      <h1 className='text-center my-4'>Beauty Shop</h1>
+      <h1 className='text-center my-4 welcome'>Welcome To Our BeautyShop</h1>
       <Products></Products>
       <div className="questionAndAnswer container">
         <h2 class="text-center mb-3">Question And Answer</h2>
@@ -14,16 +14,16 @@ function App() {
         <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-center mb-3">Q1: how does javascript work</h5>
-                      <p class="card-text">JavaScript at a time can execute only one script. thatmean's when we will open website, then javascript execute one by one script top to bottom, so javascript called JavaScript is a single-threaded language. normal function we can call any position, like top to bottom but arrow function just work just where declear arrow function and call this arrow only down to the declear arrow function.</p>
+                      <h5 class="card-title text-center mb-3">Q1: Props vs State</h5>
+                      <p class="card-text"> Props and State Main difference is props just read only. We can't change props data. but We can change data and update data using State. we can transfer data one component to another component and receive this data using Props.</p>
                     </div>
                   </div>
           </div>
           <div class="col">
                   <div class="card">
                     <div class="card-body">
-                      <h5 class="card-title text-center mb-3">Q1: how does javascript work</h5>
-                      <p class="card-text">JavaScript at a time can execute only one script. thatmean's when we will open website, then javascript execute one by one script top to bottom, so javascript called JavaScript is a single-threaded language. normal function we can call any position, like top to bottom but arrow function just work just where declear arrow function and call this arrow only down to the declear arrow function.</p>
+                      <h5 class="card-title text-center mb-3">Q2: How react works</h5>
+                      <p class="card-text">React at first create Virtual dom. then when I'll any changes, then react create new virtual dom and compare old virtual dom and new created virtual dom data and update virtual dom. React is one way binding. react works just top to bottom. not allow react lift up. like if we will try to transfer data bottom to top, then not allow react. just allow top to bottom.</p>
                     </div>
                   </div>
           </div>
