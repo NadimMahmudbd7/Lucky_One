@@ -29,6 +29,7 @@
 }
 .welcome{
   background-image: linear-gradient( #ffdada, #f94a8b);
+  padding: 10px;
 }
 @keyframes App-logo-spin {
   from {
