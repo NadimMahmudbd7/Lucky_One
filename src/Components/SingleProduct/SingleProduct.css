@@ -38,9 +38,9 @@ width: 44px;
 @media screen and (max-width:688px){
     .product{
         margin: auto;
-        width: 369px;
+        width: 100%;
     }
     .product img{
-        width: 22rem;
+        width: 20rem;
     }
 }
