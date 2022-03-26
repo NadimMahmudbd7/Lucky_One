@@ -5,7 +5,8 @@ import Products from './Components/Products/Products';
 
 function App() {
   return (
-    <div className="App container">
+    <div className="App">
+      <h1 className='text-center my-4'>Beauty Shop</h1>
       <Products></Products>
     </div>
   );

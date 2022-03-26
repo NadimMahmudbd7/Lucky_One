@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import CartProducts from '../CartProducts/CartProducts';
+import RandomSelectProduct from '../RandomSelectProduct/RandomSelectProduct';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import "./Products.css"
 
@@ -33,7 +35,7 @@ const Products = () => {
     }
     return (
         <div className='products'>
-            <div className="leftSide">
+            <div className="leftSide row">
             {
                 products.map( product=> <SingleProduct 
                     key={product.id}
@@ -42,12 +44,19 @@ const Products = () => {
                 ></SingleProduct>)
             }
             </div>
-            <div className="rightSide">
-                {<h3>{lucky.name}</h3>}
-                <h1>Selected Item</h1>
-                {addCart.map( productCart => <h4>{productCart.name}</h4>)}
-                <button onClick={RandomSelect}>Choose 1 For me</button>
-                <button onClick={Reset}>Reset</button>
+            <div className="rightSide container">
+            
+                <h1 className='text-center my-4'>Selected Item</h1>
+                <div className="div">
+                {addCart.map( productCart =><CartProducts productCart={productCart}></CartProducts>)}
+                <div className="multiBtn">
+                <button className='choseButton ' onClick={RandomSelect}>Choose 1 For me</button>
+                <button className='resetButton' onClick={Reset}>Reset ALL Products</button>
+                </div>
+                <div className="div my-4">
+                <RandomSelectProduct lucky={lucky}></RandomSelectProduct>
+                </div>
+                </div>
             </div>
 
         </div>

@@ -2,14 +2,17 @@
     width: 20rem;
     border-radius: 10px;
     border: 1px solid gray;
+    margin-left: -3px;
+    margin-top: 9px;
+    margin-bottom: 40px;
 }
 .product{
-    width: 325px;
+    width: 340px;
     height: 500px;
-    background-color: gray;
-    text-align: center;
+    background-image: linear-gradient(45deg, #fe853f, transparent);
     border-radius: 15px;
     position: relative;
+    margin-left: 50px;
 }
 .button{
     display: flex;
@@ -19,7 +22,13 @@
     border-radius: 15px;
     position: absolute;
     bottom: 0;
-    color: blue;
+    background-image: linear-gradient(45deg, #e69d9d, transparent);
+    font-weight: bold;
+    font-size: 10px;
+    font-size: 22px;
+    color: #4c4c8f;
+    left: 0;
+    border-style: none;
 }
 
 .icon{

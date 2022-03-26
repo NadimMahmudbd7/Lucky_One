@@ -1,0 +1,9 @@
+.randomProductimg{
+    width: 70px;
+    border-radius: 18px;
+}
+.randomProduct{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
