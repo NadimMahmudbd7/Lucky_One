@@ -1,8 +1,8 @@
 
 <<<<<<< HEAD
-# [Welcome to Our BeautyShop](https://genuine-lokum-38763f.netlify.app/)
+# [Welcome to Our BeautyShop](https://beautyshopp.netlify.app/)
 
-Live website link: https://genuine-lokum-38763f.netlify.app/
+Live website link: https://beautyshopp.netlify.app/
 
 ## Documentation
 
